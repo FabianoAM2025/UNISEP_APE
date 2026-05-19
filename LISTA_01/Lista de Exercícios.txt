@@ -1,0 +1,60 @@
+Lista de exercícios 1
+
+
+NOME DA PASTA LISTA_01
+
+1) Verificação de Múltiplos
+Leia dois números e verifique se o primeiro é múltiplo do segundo.
+
+2) Cálculo de Salário com Bônus
+Leia o salário:
+
+Se maior que 3000 → bônus de 5%
+Caso contrário → bônus de 10%
+Exiba o salário final.
+3) Operação Matemática
+Leia dois números e uma operação (+, -, *, /).
+Realize a operação e exiba o resultado.
+
+4) Classificação de Nota com Conceito
+Leia uma nota de 0 a 10 e classifique:
+
+A (>= 9)
+B (7 – 8.9)
+C (5 – 6.9)
+D (< 5)
+5) Verificação de Maioridade para Votação
+Leia a idade e informe:
+
+Não pode votar (< 16)
+Voto opcional (16–17 ou > 70)
+Voto obrigatório (18–70)
+6) Cálculo de Conta de Energia
+Leia o consumo em kWh:
+
+Até 100 → R$0,50/kWh
+101 a 200 → R$0,75/kWh
+Acima de 200 → R$1,00/kWh
+Calcule o valor total.
+7) Classificação de Temperatura
+Leia uma temperatura:
+
+Frio (< 15°C)
+Agradável (15–25°C)
+Quente (> 25°C)
+8) Verificação de Ano de Eleição
+Leia um ano e informe se é ano de eleição (múltiplo de 4).
+
+9) Cálculo de Frete
+Leia o peso de uma encomenda:
+
+Até 5kg → R$10
+5 a 20kg → R$20
+Acima de 20kg → R$50
+10) Sistema de Multa de Trânsito
+Leia a velocidade de um carro:
+
+Até 60 km/h → sem multa
+61–80 → multa leve
+81–100 → multa grave
+Acima de 100 → multa gravíssima
