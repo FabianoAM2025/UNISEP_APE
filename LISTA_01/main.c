@@ -1,10 +1,8 @@
-1)Leia dois números e verifique se o primeiro é múltiplo do segundo.
+//1)Leia dois números e verifique se o primeiro é múltiplo do segundo.
 #include <stdio.h>
 
-int main(){
-
-
-  int num1, num2;
+int main() {
+    int num1, num2, resultado;
 
     printf("Digite o primeiro valor: ");
     scanf("%i", &num1);
@@ -12,19 +10,21 @@ int main(){
     printf("Digite o segundo valor: ");
     scanf("%i", &num2);
 
-	resultado = num1 % num2;
-
-    if (resultado == 0) {
+    if (num2 == 0) {
         printf("Erro: Divisao por zero nao permitida.\n");
-    } else if (%(num1, num2) == 0.0i) {
-        printf("%.2i e multiplo de %.2i.\n", num1, num2);
     } else {
-        printf("%.2i nao e multiplo de %.2i.\n", num1, num2);
+        resultado = num1 % num2;
+
+        if (resultado == 0) {
+            printf("%i e multiplo de %i.\n", num1, num2);
+        } else {
+            printf("%i nao e multiplo de %i.\n", num1, num2);
+        }
     }
 
     return 0;
 }
-
+/*
 -----------------------------------------------
 2)Cálculo de Salário com Bônus Leia o salário:
 Se maior que 3000 → bônus de 5%
@@ -161,7 +161,7 @@ int idade = 0;
     printf("Digite sua idade:\n");
     scanf("%i", &idade);
 
-    if (idade <= 12) {
+    if (idade <= 12){
         printf("Voce e uma Crianca\n");
     } else if (idade >= 13 && idade <= 17) {
         printf("Voce e um Adolescente\n");
@@ -182,11 +182,28 @@ int idade = 0;
 
 
 
+ ---------------------------------------------------------
+ /*
+#include <stdio.h>
 
+int main() {
+	       //Laços de repetição   usando for
+		for(int i=0; i <=5; i++){
+        printf("%i \n",i);
+    }
+    //Laços de repetição   usando while
+    int x = 0;
+    while(x<3){
+		printf("Valor de x:%i\n",x);
+        x++;
+	   // x = x +1;
+    }
+	// //Laços de repetição   usando do while    muito usado em menus
+		int y=0;
+		do{
+			printf("Valor de y:\n",y);
+			y++;
 
-
-
-
-
-
-
+		}while(y<=4);
+}
+*/

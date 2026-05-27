@@ -172,7 +172,32 @@ int idade = 0;
 }
 
 -----------------------------------------------------------
-6)
+6)Cálculo de Conta de Energia
+Leia o consumo em kWh:
+
+Até 100 → R$0,50/kWh
+101 a 200 → R$0,75/kWh
+Acima de 200 → R$1,00/kWh
+Calcule o valor total.
+
+
+
+
+
+----------------------------------------------------------
+7)Classificação de Temperatura
+Leia uma temperatura:
+
+Frio (< 15°C)
+Agradável (15–25°C)
+Quente (> 25°C)
+
+
+
+
+----------------------------------------------------------
+8) Verificação de Ano de Eleição
+Leia um ano e informe se é ano de eleição (múltiplo de 4).
 
 
 
@@ -182,3 +207,53 @@ int idade = 0;
 
 
 
+
+
+
+-----------------------------------------------------------------
+9) Cálculo de Frete
+Leia o peso de uma encomenda:
+
+Até 5kg → R$10
+5 a 20kg → R$20
+Acima de 20kg → R$50
+10) Sistema de Multa de Trânsito
+Leia a velocidade de um carro:
+
+Até 60 km/h → sem multa
+61–80 → multa leve
+81–100 → multa grave
+Acima de 100 → multa gravíssima
+
+
+----------------------------------------------------------------------
+
+1) Escreva um programa que exiba os números de 1 a 10 usando for.
+2) Faça o mesmo exercício anterior usando while.
+3) Faça o mesmo exercício usando do...while.
+4) Exiba os números de 10 até 1 (ordem decrescente).
+5) Mostre todos os números pares de 1 até 20.
+6) Mostre todos os números ímpares de 1 até 20.
+7) Calcule a soma dos números de 1 até 10.
+8) Solicite um número ao usuário e exiba a tabuada dele (de 1 a 10).
+9)Peça um número e mostre todos os números de 1 até ele.                  <==== até aqui está concluído
+10) Peça dois números e mostre todos os números entre eles.
+11) Peça um número e calcule o fatorial dele.
+12) Conte quantos números pares existem entre 1 e 50.
+13) Some apenas os números ímpares entre 1 e 100.
+14) Peça um número e mostre a contagem regressiva até 0.
+16) Faça um programa que peça números ao usuário até que ele digite 0. No final, mostre a soma de todos os números digitados.
+17) Peça números até que o usuário digite um número negativo. Exiba quantos números foram digitados.
+18) Solicite várias idades até o usuário digitar 0. Calcule a média das idades.
+19) Peça números até o usuário digitar 999. Mostre o maior número digitado.
+20) Faça um programa que peça uma senha até que o usuário acerte (senha fixa no código).
+21) Crie um menu simples com opções:
+1: Dizer "Olá"
+2: Dizer "Tudo bem?"
+3: Sair
+O programa deve repetir até o usuário escolher sair.
+22) Solicite um número positivo. Caso o usuário digite um número inválido, peça novamente.
+23) Exiba todos os números entre 1 e 100 que são divisíveis por 3 e 5 ao mesmo tempo.
+24) Peça um número e verifique se ele é primo.
+25) Simule um caixa eletrônico: peça um valor e mostre quantas notas de 100, 50, 20, 10, 5 e 1 são necessárias.
+26) Peça um número e desenhe um quadrado com * (ex: número 4 → 4 linhas com 4 asteriscos).
