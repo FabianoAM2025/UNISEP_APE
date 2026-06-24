@@ -1,0 +1,14 @@
+Lista de exercícios VETORES[]
+1) Leia 5 números inteiros e armazene em um vetor. Exiba todos os valores.
+2) Leia 10 números e mostre apenas os números pares.
+3) Leia 8 números e calcule a soma de todos os elementos do vetor.
+4) Leia 6 números e mostre o maior valor.
+5) Leia 6 números e mostre o menor valor.
+6) Leia 10 números e conte quantos são positivos.
+7) Leia 10 números e mostre a média dos valores.
+8) Leia 10 números e exiba apenas os valores maiores que a média.
+9) Leia 10 números e substitua os negativos por zero.
+10) Leia 10 números e ordene o vetor em ordem crescente
+11) Leia 10 números e ordene em ordem decrescente.
+12) Leia um vetor de 6 posições e encontre o segundo maior valor.
+13) Leia um vetor e encontre o número que mais se repete.
